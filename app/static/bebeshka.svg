@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="440" viewBox="0 0 480 440" role="img" aria-labelledby="title desc">
+<title id="title">Бебешка — барашек-помощник Better Education</title>
+<desc id="desc">Улыбающийся пушистый белый барашек с золотыми рожками в синем худи машет рукой и держит учебник</desc>
+<defs>
+ <linearGradient id="horn" x1=".1" y1="0" x2=".95" y2="1"><stop stop-color="#fff0c1"/><stop offset=".5" stop-color="#d3a05c"/><stop offset="1" stop-color="#aa713f"/></linearGradient>
+ <linearGradient id="coat" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6eb2ff"/><stop offset=".55" stop-color="#206fda"/><stop offset="1" stop-color="#1252a8"/></linearGradient>
+ <linearGradient id="book" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a3c9f9"/><stop offset="1" stop-color="#578bcf"/></linearGradient>
+ <radialGradient id="face"><stop stop-color="#fff"/><stop offset=".75" stop-color="#fffaf8"/><stop offset="1" stop-color="#e9e2eb"/></radialGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#615493" flood-opacity=".16"/></filter>
+ <filter id="soft"><feGaussianBlur stdDeviation="10"/></filter>
+</defs>
+<ellipse cx="254" cy="422" rx="155" ry="13" fill="#8377c3" opacity=".12" filter="url(#soft)"/>
+<g filter="url(#shadow)">
+<!-- sleeves and raised waving arm -->
+<path d="M160 274 C136 270 112 251 96 223 L75 195 L47 210 C57 253 94 301 137 326 Z" fill="url(#coat)" stroke="#1a64c2" stroke-width="7"/>
+<path d="M79 222 C71 218 62 212 57 201 C43 195 42 183 51 180 C37 176 33 166 40 158 C27 153 31 138 43 141 C44 123 59 125 68 134 C78 123 92 136 90 150 C105 146 112 161 104 173 C113 188 100 216 79 222Z" fill="#fffdfb" stroke="#e4dfec" stroke-width="6"/>
+<path d="M51 159 Q70 169 78 150 M47 182 Q61 185 73 175" fill="none" stroke="#e2dbea" stroke-width="5" stroke-linecap="round"/>
+<!-- body hoodie -->
+<path d="M146 282 C178 248 230 237 284 251 C353 264 371 318 363 409 L142 410 C126 361 123 314 146 282Z" fill="url(#coat)" stroke="#195fbe" stroke-width="7"/>
+<path d="M185 270 C194 296 213 309 246 310 C276 310 294 300 300 279" fill="none" stroke="#94c9ff" stroke-width="8"/>
+<path d="M215 307 L208 353 M283 307 L286 352" stroke="#e0efff" stroke-width="6" stroke-linecap="round"/>
+<rect x="192" y="355" width="125" height="48" rx="20" fill="#1159b8" opacity=".38"/>
+<!-- sheep ears -->
+<ellipse cx="132" cy="213" rx="34" ry="49" transform="rotate(-27 132 213)" fill="#fffafa" stroke="#e7e3ec" stroke-width="7"/>
+<ellipse cx="345" cy="209" rx="32" ry="47" transform="rotate(27 345 209)" fill="#fffafa" stroke="#e7e3ec" stroke-width="7"/>
+<ellipse cx="134" cy="216" rx="17" ry="27" transform="rotate(-27 134 216)" fill="#f7d1ce"/>
+<ellipse cx="346" cy="209" rx="17" ry="27" transform="rotate(27 346 209)" fill="#f7d1ce"/>
+<!-- horns behind face -->
+<path d="M144 173 C86 184 86 109 126 88 C169 67 208 96 207 126 C179 119 157 138 166 157 C177 178 147 196 130 175 C118 159 128 144 145 147" fill="none" stroke="#b47b3e" stroke-width="46" stroke-linecap="round"/>
+<path d="M144 173 C86 184 86 109 126 88 C169 67 208 96 207 126 C179 119 157 138 166 157 C177 178 147 196 130 175 C118 159 128 144 145 147" fill="none" stroke="url(#horn)" stroke-width="34" stroke-linecap="round"/>
+<path d="M330 165 C382 156 386 109 366 91 C335 67 295 86 291 112 C315 111 333 132 327 150 C319 171 344 194 364 168" fill="none" stroke="#ae7b44" stroke-width="44" stroke-linecap="round"/>
+<path d="M330 165 C382 156 386 109 366 91 C335 67 295 86 291 112 C315 111 333 132 327 150 C319 171 344 194 364 168" fill="none" stroke="url(#horn)" stroke-width="32" stroke-linecap="round"/>
+<!-- head -->
+<ellipse cx="245" cy="204" rx="121" ry="112" fill="url(#face)" stroke="#e7e3ed" stroke-width="7"/>
+<!-- cloud forehead fluff -->
+<path d="M148 151 C126 144 129 110 154 103 C158 78 190 73 207 91 C222 67 257 68 272 91 C295 76 330 95 330 120 C356 121 354 160 333 168 C328 185 303 185 289 173 C272 191 243 185 230 174 C207 188 179 176 173 164 C164 164 156 157 148 151Z" fill="#fff" stroke="#e9e6ee" stroke-width="6"/>
+<!-- eyes -->
+<ellipse cx="207" cy="216" rx="12" ry="19" fill="#253048"/>
+<circle cx="211" cy="210" r="4.3" fill="#fff"/>
+<path d="M273 213 Q294 191 310 216" fill="none" stroke="#263148" stroke-width="9" stroke-linecap="round"/>
+<ellipse cx="178" cy="247" rx="27" ry="13" fill="#ffa6b2" opacity=".54"/>
+<ellipse cx="321" cy="249" rx="25" ry="13" fill="#ffa6b2" opacity=".56"/>
+<path d="M241 235 Q249 231 257 235 Q253 245 249 245Z" fill="#9b6d6a"/>
+<path d="M231 253 Q247 276 266 252 Q269 286 249 288 Q232 284 231 253Z" fill="#bd6577" stroke="#9a5b68" stroke-width="4"/>
+<path d="M243 278 Q249 272 258 278" stroke="#ffc3cb" stroke-width="6" stroke-linecap="round"/>
+<!-- book -->
+<path d="M247 312 Q293 295 342 318 L392 333 L380 415 Q327 392 287 411 Q264 401 233 398 L223 329Z" fill="url(#book)" stroke="#3b71bb" stroke-width="7" stroke-linejoin="round"/>
+<path d="M287 324 L287 406 M240 336 Q262 338 279 343 M304 344 Q342 336 374 350" stroke="#d7ebff" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M238 351 Q260 347 279 360 M306 359 Q339 353 371 369" stroke="#d7ebff" stroke-width="3.5" fill="none" stroke-linecap="round" opacity=".7"/>
+<!-- book paw -->
+<path d="M349 360 C372 346 395 360 392 377 C403 386 395 401 383 402 C369 419 344 406 342 389Z" fill="#fffdfb" stroke="#e7e0ec" stroke-width="6"/>
+</g>
+<g fill="#f9bd43"><path d="M86 91 L82 69" stroke="#f9bd43" stroke-width="7" stroke-linecap="round"/><path d="M68 98 L52 85" stroke="#f9bd43" stroke-width="7" stroke-linecap="round"/><path d="M66 115 L43 117" stroke="#f9bd43" stroke-width="7" stroke-linecap="round"/></g>
+</svg>

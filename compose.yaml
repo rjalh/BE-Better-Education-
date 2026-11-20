@@ -1,0 +1,19 @@
+services:
+  better-education:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      BE_DEMO_MODE: ${BE_DEMO_MODE:-1}
+      SESSION_SECRET: ${SESSION_SECRET:-}
+      ADMIN_EMAIL: ${ADMIN_EMAIL:-}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:-}
+      COOKIE_SECURE: ${COOKIE_SECURE:-0}
+      DATABASE_URL: sqlite:////srv/data/better.db
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      BE_AI_MODEL: ${BE_AI_MODEL:-gpt-4.1-mini}
+    volumes:
+      - be_data:/srv/data
+    restart: unless-stopped
+volumes:
+  be_data:
